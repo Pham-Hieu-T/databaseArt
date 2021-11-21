@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block body%}
+<div class="container">
+    <div class="row">
+        <div>
+            <p>Add your new data</p>
+            <form action="/add" method="post">
+                <table class="centerCall">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>BirthDate</th>
+                        <th>DeathDate</th>
+                        <th>commission</th>
+                        <th>street</th>
+                        <th>city</th>
+                        <th>stateAb</th>
+                        <th>zipCode</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td><input type="text" name="name"size="10" ></td>
+                                <td><input type="date" name="dob" size="10"></td>
+                                <td><input type="date" name="dod"size="10" ></td>
+                                <td><input type="text" name="commission" size="10"></td>
+                                <td><input type="text" name="street" size="10"></td>
+                                <td><input type="text" name="city" size="10"></td>
+                                <td><input type="text" name="stateAb" size="10"></td>
+                                <td><input type="text" name="zipCode" size="10"></td>
+                                <td><input type="submit" value="Add"></td>
+                                
+                            </tr> 
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

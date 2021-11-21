@@ -1,0 +1,76 @@
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+a{
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav .nav-items{
+    text-align: center;
+    display: flex;
+
+}
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    display: block;
+}
+
+
+
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+
+}
+.container .centerCall{
+    padding-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}
+
+.center{
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 70%;
+
+}
+.center th td{
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+.center th{
+
+    background-color: #4CAF50;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+.center tr:nth-child(even){
+    background-color: #f2f2f2;
+}
