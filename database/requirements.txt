@@ -4,7 +4,7 @@ distlib==0.3.3
 filelock==3.4.0
 flake8==4.0.1
 mccabe==0.6.1
-pipenv==2021.11.23
+pipenv==2022.1.8
 platformdirs==2.4.0
 pycodestyle==2.8.0
 pyflakes==2.4.0
